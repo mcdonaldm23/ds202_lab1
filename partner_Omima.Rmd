@@ -1,0 +1,18 @@
+---
+title: "Lab 1"
+author: "Omima Hassan"
+date: "9/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+1. Name
+  + Omima Hassan
+
+2. What did the Owner do in the most recent commit? What is the commit ID?
+  + The owner cloned the files that were on my GitHub repository and then pushed her changes into GitHub
+
+3. Able to knit the owners Rmd file?
+  + Yes, no errors present 
