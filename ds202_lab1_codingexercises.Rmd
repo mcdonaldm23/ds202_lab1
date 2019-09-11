@@ -1,0 +1,54 @@
+---
+title: "Coding Exercises"
+author: "Maureen McDonald"
+date: "9/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# 1. Explain the difference between Git and Github.
+
+  Git is version control system that allows you to creat several drafts of programs. Github is a place to share your data on the web.
+  
+# 2. Can Git and Github be used independently? Why don't we do so? Describe the advantages and disadvantages. 
+
+  Yes they can. Git can be used offline and without Git, GitHub would basically be Google Drive.  GitHub is a great way to find inpiration, help, or guide someone else. A disadvantage is they both have a steep learning curve.
+  
+# 3. What is a repository in Git and how can you create a repository in Git (write out the command(s))? 
+
+A storage area where you can put your projects.It can be locally on your computer or on GitHub. 
+git init
+
+
+# 1
+X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+sum(is.na(X))
+
+# 2
+age = c(25,30,45,60,12,41)
+smoker = c('T','F','T','F','F','F')
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+replace(weight, weight ==0, 150)
+
+# 3
+mean(is.na(x))
+me =function(x)
+  {
+  return(average(is.nax))}
+  
+x / sum(x, na.rm = TRUE)
+su =function(x)
+   {
+   return(x / sum(x, na.rm = TRUE))}
+
+# 4
+Write a function named `both_na()`. This function take two vectors of the same length and returns the number of positions that have an `NA` value in both vectors. 
+
+both_na()= function(x)
+  {
+  sum(is.na(x) & is.na(y))}
+  
+
